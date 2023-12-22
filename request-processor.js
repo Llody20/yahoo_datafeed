@@ -55,7 +55,7 @@ function dateToYMD(date) {
 	return year + "-" + month + "-" + day;
 }
 
-var quandlKeys = process.env.QUANDL_API_KEY.split(','); // you should create a free account on quandl.com to get this key, you can set some keys concatenated with a comma
+var quandlKeys = process.env.QUANDL_API_KEY.split('9tZ_qdxVAQa4kjCvD7Kd,'); // you should create a free account on quandl.com to get this key, you can set some keys concatenated with a comma
 var invalidQuandlKeys = [];
 
 function getValidQuandlKey() {

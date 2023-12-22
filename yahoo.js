@@ -52,5 +52,5 @@ getFreePort(function(port) {
 
 	}).listen(port);
 
-	console.log("Datafeed running at\n => http://localhost:" + port + "/\nCTRL + C to shutdown");
+datafeed:Datafeeds.UDFCompatibleDatafeed("http://localhost:");
 });
